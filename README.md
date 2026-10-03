@@ -8,6 +8,35 @@ My work focuses on **Edge AI deployment, industrial time-series modeling, anomal
 
 ---
 
+## ⭐ Featured Open-Source Projects
+
+### [Industrial Multivariate Time-Series Anomaly Detection Benchmark](https://github.com/Ustinian1722/industrial-anomaly-detection)
+
+面向工业多变量时序异常检测、定位和诊断分流的可复现实验平台。
+
+- PCA-SPE / Hotelling T² / Isolation Forest
+- LSTM-AE / PatchTST / TimesNet-lite
+- USAD-lite / TranAD-lite / Anomaly Transformer-lite
+- TimesFM 2.5 / Chronos-2 adapters
+- ROC-AUC / PR-AUC / F1 / FAR / MAR / detection delay
+- leave-one-group-out generalization
+- latency / throughput / memory / model-size profiling
+- train-only scaling / threshold fitting / leakage audit
+
+### [IndusTSFM — Industrial Time-Series Foundation Model Adaptation & Generalization](https://github.com/Ustinian1722/industrial-tsfm)
+
+研究时间序列基础模型在工业场景中的迁移、跨工况泛化和计算成本权衡。
+
+- C-MAPSS · UCI Gas Turbine · Tennessee Eastman · NASA IMS
+- PatchTST · TimesFM 2.5 · Chronos · Chronos-2 · Moirai-2
+- cross-regime / cross-domain evaluation
+- target-support adaptation
+- LoRA / PEFT
+- shift / OOD analysis
+- compute-aware model & strategy selection
+
+---
+
 ## 🔧 技术栈
 
 **Edge AI / Inference**
@@ -66,44 +95,6 @@ My work focuses on **Edge AI deployment, industrial time-series modeling, anomal
 
 ---
 
-## 🏭 Public Industrial AI Projects
-
-### [Industrial Multivariate Time-Series Anomaly Detection Benchmark](https://github.com/Ustinian1722/industrial-anomaly-detection)
-
-面向工业多变量时序异常检测、定位和诊断分流的可复现实验平台。
-
-- PCA-SPE / Hotelling T² / Isolation Forest
-- LSTM-AE / PatchTST / TimesNet-lite
-- USAD-lite / TranAD-lite / Anomaly Transformer-lite
-- TimesFM 2.5 / Chronos-2 adapters
-- ROC-AUC / PR-AUC / F1 / FAR / MAR / detection delay
-- leave-one-group-out generalization
-- latency / throughput / memory / model-size profiling
-- train-only scaling / threshold fitting / leakage audit
-
-### [IndusTSFM — Industrial Time-Series Foundation Model Adaptation & Generalization](https://github.com/Ustinian1722/industrial-tsfm)
-
-研究时间序列基础模型在工业场景中的迁移、跨工况泛化和计算成本权衡。
-
-- C-MAPSS · UCI Gas Turbine · Tennessee Eastman · NASA IMS
-- PatchTST · TimesFM 2.5 · Chronos · Chronos-2 · Moirai-2
-- cross-regime / cross-domain evaluation
-- target-support adaptation
-- LoRA / PEFT
-- shift / OOD analysis
-- compute-aware model & strategy selection
-
-### [BatteryDiffusion](https://github.com/Ustinian1722/BatteryDiffusion)
-
-面向多模态电池热失控数据的生成式增强与早期预警研究。
-
-- conditional diffusion augmentation
-- temperature / pressure / force multimodal signals
-- leakage-safe leave-one-real-experiment-out evaluation
-- external real-experiment validation
-
----
-
 ## 🎯 Current Focus
 
 目前重点在把以下能力组合成一条完整的 **Industrial Edge AI** 技术链：
@@ -139,4 +130,3 @@ ROS 2 / Industrial Integration
 - No test-set leakage
 - Measure latency, throughput, memory and model size — not accuracy alone
 - Prefer complete **data → model → deployment → profiling** pipelines
-
