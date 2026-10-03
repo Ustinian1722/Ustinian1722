@@ -1,4 +1,4 @@
-# 张新凯 / Ustinian1722
+# wurui / Ustinian1722
 
 **Edge AI · Industrial AI · AI Inference & Deployment**
 
